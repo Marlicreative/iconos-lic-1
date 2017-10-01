@@ -1,0 +1,45 @@
+body{
+  background-color: #fff;
+  font-family: sans-serif;
+}
+
+.subtemas{
+  cursor: pointer;
+  text-decoration: none;
+}
+.subtemas:hover{
+  color: darkturquoise;
+  text-decoration: none;
+}
+.regresar{
+  font-size: 2em;
+  text-align: center;
+}
+.titulo{
+  text-align: center;
+}
+.perfil{
+  font-size: 2em;
+  color: darkturquoise;
+}
+.reglamento{
+  padding: 2% 5% 0 5%;
+}
+li{
+  font-size: 2em;
+  padding-top: 3%;
+  line-height: 1;
+}
+.sub2{
+  color: darkturquoise;
+}
+.cyan{
+  color: darkturquoise; 
+}
+.pink{
+  color: rgb(255,64,129);
+}
+.parrafo{
+  font-size: 2em;
+  line-height: 1;
+}

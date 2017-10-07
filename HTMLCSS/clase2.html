@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
+	<meta charset="UTF-8" />
+	<meta name="autor" content="Lilia Guzmán" />
+	<meta name="description" content="Introduccón a HTML5" />
 	<title>Clase 2</title>
 	<link rel="stylesheet" href="css/style.css" class="css">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
@@ -16,33 +18,30 @@
 		<div>
 			<h3 class="sub2">Elementos básicos (Tags)</h3>
 				<ul>
-					<li>Elementos básicos.</li>
-					<li>Utilización de tags.</li>
-					<li>Formación de elementos.</li>
-					<li>Fuentes, color, estilos.</li>
-					<li>Tablas, frames e imágenes.</li>
-				</ul>
-				<ul>
+					<li>Comentarios</li>
 					<li>(*)<code>!DOCTYPE html</code>: identificador de versión.</li>
-					<li>(*)HTML: indica que todo lo que está dentro de este bloque se debe interpretar como HTML</li>
+					<li>(*)<code>HTML</code>: indica que todo lo que está dentro de este bloque se debe interpretar como HTML</li>
 						<ul>
-							<li>(*)HEAD: la cabecera contiene información propia del documento </li>
+							<li>(*)<code>HEAD</code>: la cabecera contiene información propia del documento </li>
 								<ul>
-									<li>META: contenedor de metainformación sobre el documento y  </li>
-									<li>(*)TITLE: título del docuemnto</li>
-									<li>LINK: describe las relaciones del documento </li>
+									<li><code>META</code>: contenedor de metainformación sobre el documento</li>
+									<li>(*)<code>TITLE</code>: título del docuemnto</li>
+									<li><img src="img/title.png" /></li>
+									<li><code>LINK</code>: describe las relaciones del documento </li>
 								</ul>
-							<li>(*)BODY: engloba el conetenido del documento </li>
+							<li>(*)<code>BODY</code>: engloba el conetenido del documento </li>
 								<ul>
-									<li>SECTION</li>
-									<li>NAV</li>
-									<li>ARTICLE</li>
-									<li>HEADER</li>
-									<li>FOOTER</li>
-									<li>ASIDE</li>									
+									<li><code>SECTION</code>: representa una sección genérica de un documento.</li>
+									<li><code>NAV</code>: sección con contenido de navegación.</li>
+									<li><code>ARTICLE</code>: especifica el contenido independiente, autónomo.</li>
+									<li><code>HEADER</code>: cabecera del docuemnto, suele contener elementos de navegación y encabezados.</li>
+									<li><code>FOOTER</code>: pie del documento</li>
+									<li><code>ASIDE</code>: cualquier elemento adicional, al margen del flujo principal del texto.</li>									
 								</ul>					
 						</ul>
 				</ul>
+				<br/>
+				<p style="text-align: center;"><img src="img/etiquetas-semanticas-html5.jpg" /></p>
 			<h3 class="sub2">Utilización de tags</h3>
 				<p class="parrafo">Cabeceras</p>
 				<ul>
@@ -54,11 +53,19 @@
 					<li><h6>h6</h6></li>
 				</ul>
 
-				<p class="parrafo">Listas</p>
-				<ul>
-					<li>Ordenadas</li>
-					<li>Desordenadas</li>
-				</ul>	
+				<br/>
+				<p class="parrafo">Listas ordenada y desordenadas</p>
+						<ol>
+							<li>Lista ordenada</li>
+							<li>Lista ordenada</li>
+							<li>Lista ordenada</li>
+						</ol>
+						<ul>
+							<li>Lista desordenada</li>
+							<li>Lista desordenada</li>
+							<li>Lista desordenada</li>
+						</ul>
+				<br/>
 
 				<p class="parrafo">Marcadores de texto</p>
 				<ul>
@@ -73,32 +80,41 @@
 					<li><strong>STRONG</strong></li>
 					<li><sub>SUB</sub></li>
 				</ul>
+				<br/>
 
 				<h3 class="sub2">Hypertextos</h3>
 				<ul>
-					<li>A</li>
+					<li>A HREF</a></li>
 					<li>Referencias locales</li>
-					<li>Referencias internas a un documento</li>
-					<li>Referencias a documentos HTML externos</li>
-					<li>Referencias a contenidos de internet</li>
+					<li>Referencias a contenidos externos</li>
 				</ul>
+				<br/>
 
 				<h3 class="sub2">Tablas e imágenes</h3>
 
 				<p class="parrafo">Tablas</p>
 				<ul>
-					<li>TABLE</li>
-					<li>TD</li>
-					<li>TR</li>
+					<li><code>TABLE</code></li>
+					<li><code>TR</code></li>
+					<li><code>TD</code></li>
+					<li><code>THEAD</code></li>
+					<li><code>TBODY</code></li>
+					<li><code>TFOOT</code></li>
+
 				</ul>
+				<br/>
+
 				<p class="parrafo">Imágenes</p>
 				<ul>
-					<li>IMG</li>
-					<li>ALT</li>
+					<li><code>IMG</code></li>
+					<li><code>ALT</code></li>
+					<li><code>TITLE</code></li>
 				</ul>
 		</div>
+
+		<div class="regresar"><a href="ejemplos/ejemploClase2.html">Ejemplo</a></div>
 	</section>
-	<footer>By Marlicreative</footer>
+	<footer style="text-align: center; margin-top: 10%;">By Marlicreative</footer>
 	<script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
 </body>
 </html>

@@ -1,0 +1,46 @@
+/* RESET */
+/* el asterisco significa TODO */
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background: #aaaaaa;
+}
+
+header{
+	background:#000;
+	color:#BB88FF;
+	text-align: center;
+	padding: 40px;
+}
+
+/* Espacio = interno */
+header a{
+	color: #bb88ff;
+}
+
+/* quita bullets de ul*/
+header ul{
+	list-style: none;
+}
+
+header li{
+	display: inline-block;
+}
+
+section img{
+	width: 80%;
+	margin: 10%;
+}
+
+section p{
+	margin: 40px;
+}
+
+
+
+
+
+

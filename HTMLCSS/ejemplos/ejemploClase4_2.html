@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Clase 4</title>
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+		}
+		#menu nav ul li{
+			display: inline;
+		}
+		#menu ul {
+		  list-style: none;
+		  background-color: pink;
+		  text-align: center;
+		  padding: 1%;
+		}
+		li{
+			padding-left: 2%;
+		}
+		div#content{
+			display: block;
+			background-color: red;
+			height: 600px;
+		}
+		aside{
+			background-color: green;
+			float: left;
+			width: 25%;
+			height: 100%;
+		}
+		section{
+			background-color: yellow;
+			float: left;
+			width: 50%;
+			height: 100%;
+		}
+		article{
+			background-color: orange;
+			width: 25%;
+			height: 100%;
+			float: left;
+		}
+		footer{
+			background-color: purple;
+			height: 150px;
+		}
+		#parrafo{
+			width: 50%;
+			background-color: yellow;
+			float: right;
+			clear: left;
+		}
+		#parrafo2{
+			width: 50%;
+			background-color: purple;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<div id="menu">
+			<nav>
+				<ul>
+					<li>Logotipo</li>
+					<li>Inicio</li>
+					<li>Uno</li>
+					<li>Dos</li>
+					<li>Tres</li>
+					<li>Cuatro</li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<div id="content">
+		<aside>
+			<h2>Aside</h2>
+			<div id="parrafo">parrafo 1</div>
+			<div id="parrafo2">parrafo 2</div>
+		</aside>
+		<section>Section</section>
+		<article>Article</article>
+	</div>
+	<footer>Footer</footer>
+</body>
+</html>

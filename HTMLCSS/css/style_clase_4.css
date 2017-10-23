@@ -1,0 +1,42 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+#menu nav ul li {
+	display: inline;
+	padding: 2%;
+}
+#menu ul {
+	background-color: blue;
+	text-align: center;
+	color: white;
+	padding: 2%; 
+}
+aside{
+	background-color: yellow;
+	width: 10%;
+	float: left;
+	height: 400px;
+}
+section{
+	background-color: pink;
+	width: 80%;
+	float: left;
+	height: 400px;
+}
+article{
+	background-color: purple;
+	width: 10%;
+	float: left;
+	height: 400px;
+}
+footer{
+	background-color: black;
+	color: white;
+	font-size: 28px;
+}
+div#content{
+	display: block;
+	background-color: orange;
+	height: 600px;
+}

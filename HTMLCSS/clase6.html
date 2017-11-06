@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="autor" content="Lilia Guzmán" />
+	<meta name="description" content="Introduccón a HTML5" />
+	<title>Clase 6</title>
+	<link rel="stylesheet" href="css/style.css" class="css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.cyan-pink.min.css" />
+	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700" type="text/css">
+</head>
+<body>
+	<section class="reglamento">
+		<h2 class="titulo" id="ancla1">Los estilos en cascada</h2>
+		<div class="regresar"><a href="index.html">Regresar</a></div>
+		<h3 class="sub2">Selectores básicos</h3>
+		<p class="parrafo">Una regla de la sintaxis de CSS está formada por una parte llamada selector  y otra parte llamada declaración. La declaración indica que hay que hacer (propiedades) y el selector a qué se le debe hacer.</p>
+		<p id="imgalineada"><img src="img/selector.png"></p>
+		<p class="parrafo">Existen otras partes importantes de la sintaxis: <br />1. Cada conjunto de reglas (aparte del selector) debe estar envuelto en llaves ( {} ). <br />2. Dentro de cada declaración, debe usar dos puntos ( : ) para separar la propiedad de sus valores.<br />3. Dentro de cada conjunto de reglas, debe usar un punto y coma ( ;) para separar cada propiedad de la siguiente.</p>
+
+		<h3 class="sub2" id="ancla2">Tipos de selectores básicos</h3>
+		<p class="parrafo">
+			<ul>
+				<li>Selector universal: Se utiliza para seleccionar todos los elementos de la página.</li>
+				<img src="img/selector_universal.png">
+				<li>Selector de etiqueta: Selecciona todos los elementos de la página cuya etiqueta HTML coincide con el valor del selector. (Se pueden agrupar separados por (,)) </li>
+				<img src="img/selector_etiqueta.png">
+				<li>Selector descendente: Selecciona los elementos que se encuentran dentro de otros elementos.</li>
+				<img src="img/selector_descendente.png">
+				<li>Selector de clase: La principal característica de este selector es que en una misma página HTML varios elementos diferentes pueden utilizar el mismo valor en el atributo class. Prefijo (.) </li>
+				<img src="img/selector_clase.png"><img src="img/clase_ejemplo.png">
+				<li>Selector de id: El selector de ID permite seleccionar un elemento de la página a través del valor de su atributo id. Este tipo de selectores sólo seleccionan un elemento de la página porque el valor del atributo id no se puede repetir en dos elementos diferentes de una misma página. Prefijo (#)</li>
+				<img src="img/selector_id.png"><img src="img/id_ejemplo.png">
+			</ul>
+		</p>
+		<p class="parrafo">Ejercicios: 
+			<br />Universal: p * a { color: red; }
+			<br />Etiqueta: h1 { color: orange; }
+			<br />Etiqueta agrupado: h1, h2, h3, h4, h5, h6 { color: purple; }
+			<br />Descendente: p a span strong { text-decoration: underline; }
+			<br />Clase: p.ejemplo1 { color: yellow; }
+			<br />Clase múltiple: .ejemplo2.ejemplo3 { color: blue; }
+			<br />Id: p#ejemplo4 { color: blue; }
+		</p>
+		<p class="parrafo">CSS permite la combinación de uno o más tipos de selectores para restringir el alcance de las reglas CSS. Ejemplos:<br /><br />
+		<img src="img/combinacion1.png"><br />
+		<img src="img/combinacion2.png"><br />
+		<img src="img/combinacion3.png">
+		</p>
+
+		<h3 class="sub2">Pseudo-clases en enlaces</h3>
+		<p class="parrafo">
+			CSS también permite aplicar diferentes estilos a un mismo enlace en función de su estado. 
+			<nav>
+				<ul>
+					<li>:link, aplica estilos a los enlaces que apuntan a páginas o recursos que aún no han sido visitados por el usuario.</li>
+					<li>:visited, aplica estilos a los enlaces que apuntan a recursos que han sido visitados anteriormente por el usuario. El historial de enlaces visitados se borra automáticamente cada cierto tiempo y el usuario también puede borrarlo manualmente.</li>
+					<li>:hover, aplica estilos al enlace sobre el que el usuario ha posicionado el puntero del ratón.</li>
+					<li>:active, aplica estilos al enlace que está pinchando el usuario. Los estilos sólo se aplican desde que el usuario pincha el botón del ratón hasta que lo suelta, por lo que suelen ser unas pocas décimas de segundo.</li>
+				</ul>
+			</nav>
+			Ejemplo:
+			<a id="link1" href="#">Ejemplo 1</a>
+			<a id="link2" href="#">Ejemplo 2</a>
+			<a id="link3" href="#">Ejemplo 3</a>
+			<a id="link4" href="#">Ejemplo 4</a>
+		</p>
+
+		<h3 class="sub2">Menús</h3>
+		<p class="parrafo">Ejemplos
+			<div class="boton1"><a href="#">Botón</a></div>
+			<nav>
+				<ul id="menus1">
+					<li><a href="#" class="menu1">Menú 1</a></li>
+					<li><a href="#" class="menu2">Menú 2</a></li>
+					<li><a href="#" class="menu3">Menú 3</a></li>
+					<li><a href="#" class="menu4">Menú 4</a></li>
+				</ul>
+			</nav>
+			<nav>
+				<ul id="menus2">
+					<li><a href="#" class="menu1">Menú 1</a></li>
+					<li><a href="#" class="menu2">Menú 2</a></li>
+					<li><a href="#" class="menu3">Menú 3</a></li>
+					<li><a href="#" class="menu4">Menú 4</a></li>
+				</ul>
+			</nav>
+		</p><br /><br />
+		<p class="parrafo">Tarea: Realiza las siguientes reglas de CSS con base en lo visto en clase.
+			<ol>
+				<li>section * h2 { color : pink; font-size: 30px; }</li>
+				<li>p { padding-right: 5%; padding-left: 10px; }</li>
+				<li>h2, h3 { color: blue; font-size: 25px;}</li>
+				<li>section, div { background-color: black; color: white; }</li>
+				<li>div p span { color: yellow; }</li>
+				<li>div p span strong i { background-color: blue; color: white; }</li>
+				<li>p.tarea1 { color: gray; }</li>
+				<li>section.tarea2 p.tarea3 { font-size: 30px; color: pink; }</li>
+				<li>div#tarea1 { background-color: gray; }</li>
+				<li>ul#tarea2 li { display: inline; background-color: purple; }</li>
+				<li>nav#tarea3 ul#tarea4 li.tarea4 a { background-color: red; color: white; padding: 2%; }</li>
+			</ol>
+		</p>
+	</section>
+	<footer style="text-align: center; margin-top: 10%;">By Marlicreative</footer>
+	<script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+</body>
+</html>

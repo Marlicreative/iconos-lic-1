@@ -1,0 +1,21 @@
+#alineacion{
+	text-align: center;	
+}
+/*comentario*/
+#centrarimg{
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+#centrar{
+	text-align: center;
+}
+#left{
+	text-align: left;
+}
+#right{
+	text-align: right;
+}
+#justify{
+	text-align: justify;
+}

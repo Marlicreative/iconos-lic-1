@@ -1,3 +1,7 @@
+*{
+  padding: 0;
+  margin: 0;
+}
 body{
   background-color: #fff;
   font-family: sans-serif;
@@ -43,6 +47,78 @@ li{
   font-size: 2em;
   line-height: 1;
 }
+#imgalineada{
+  text-align: center;
+}
+td{
+  border: 1px solid red;
+  width: 500px;
+}
+#alineacion{
+text-align: justify;
+}
+#centrarimg{
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+}
+#link1:link, #link2:link, #link3:link, #link4:link{
+  color: blue;
+} 
+#link1:visited, #link2:visited, #link3:visited, #link4:visited{
+  color: orange; 
+} 
+#link1:hover, #link2:hover, #link3:hover, #link4:hover{
+  color: green;
+}
+#link1:active, #link2:active, #link3:active, #link4:active{
+  color: pink;
+}
 
-/*Flexbox*/
-  
+div.boton1{
+  width: 100px;
+  height: 40px;
+  background-color: green;
+  text-align: center;
+  border-radius: 10px;
+  padding-top: 2%;
+}
+div.boton1 a{
+  font-size: 2em;
+  color: white;
+  text-decoration: none;
+}
+div.boton1:hover{
+  background-color: purple;
+}
+div.boton1 a:hover{
+  color: pink;
+}
+
+
+ul#menus1 li{
+  display: inline;
+  padding: 2%;
+}
+
+ul#menus1 li a{
+  color: green;
+}
+
+ul#menus1 li a.menu1:hover{
+  color: pink;
+}
+
+ul#menus2 li{
+  display: block;
+}
+ul#menus2 li a{
+  text-decoration: none;
+  padding: 2% 5% 1% 10%;
+}
+ul#menus2 li a:hover{
+  background-color: blue;
+}
+ul#menus2 li a.menu1:hover{
+  color: orange;
+}

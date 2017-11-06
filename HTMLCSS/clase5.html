@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="autor" content="Lilia Guzmán" />
+	<meta name="description" content="Introduccón a HTML5" />
+	<title>Clase 5</title>
+	<link rel="stylesheet" href="css/style.css" class="css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.cyan-pink.min.css" />
+	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700" type="text/css">
+</head>
+<body>
+	<section class="reglamento">
+		<h2 class="titulo" id="ancla1">Trabajando con proyectos diseñados con integradores para sitios web</h2>
+		<div class="regresar"><a href="index.html">Regresar</a></div>
+		<h3 class="sub2">Medidas para sitios web</h3>
+		<p class="parrafo">Se recomienda diseñar en las siguientes medidas, como un estandar en los sitios web actuales.</p>
+		<p id="imgalineada"><img src="img/medidas.png"></p>
+
+		<h3 class="sub2" id="ancla2">Alineación texto e imágenes</h3>
+		<div id="alineacion">
+			<img src="img/gatito.jpg" id="centrarimg">
+			<p class="parrafo">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas optio aperiam minus quis culpa dolores iure repudiandae? Iusto laudantium modi eius culpa, pariatur, aliquid voluptatum harum obcaecati numquam inventore amet.</p>
+		</div>
+
+		<h3 class="sub2" id="ancla2">Imágenes con link</h3>
+		<p><a href="https://google.com.mx"><img src="img/gatito.jpg"></a></p>
+
+		<h3 class="sub2">Target de la etiqueta a</h3>
+		<p class="parrafo">
+			El atributo target especifíca dónde mostrar la URL de enlace
+			<nav>
+				<ul>
+					<li><a href="https://google.com.mx" target="_self">_self (default)</a>: Carga la URL en el mismo contexto de navegación.</li>
+					<li><a href="https://google.com.mx" target="_blank">_blank:</a> Carga URL en un nuevo contexto denavegación.</li>
+				</ul>
+			</nav>
+		</p>
+
+		<h3 class="sub2" id="ancla3">Salto de línea y espaciado</h3>
+		<p class="parrafo">Esto es un parrafo con <br />salto de línea<br />con la <br />etiqueta br, como es una etiqueta vacía, es decir no encierra ningún texto la forma en la que se le indica que cierra de forma consecutiva es poniendo una diagonal: <code>br /</code></p>
+		<p class="parrafo">Esto es un parrafo&nbsp;&nbsp;&nbsp;&nbsp;con espacio &nbsp;&nbsp;&nbsp;&nbsp;entre línea.</p>
+
+		<h3 id="ancla4" class="sub2">Anclajes</h3>
+		<p class="parrafo">
+			Son los enlaces que hacen referencia a puntos específicos del documento, se denominan enlaces ancla y se construyen añadiendo una almohadilla (#) seguida del identificador del punto de destino.
+			<nav>
+				<ul>
+					<li><a href="#ancla1">Ancla 1</a></li>
+					<li><a href="#ancla2">Ancla 2</a></li>
+					<li><a href="#ancla3">Ancla 3</a></li>
+					<li><a href="#ancla4">Ancla 4</a></li>
+				</ul>
+			</nav>
+		</p>
+
+		<h3 id="ancla4" class="sub2">Prototipo</h3>
+		<p class="parrafo"><a href="https://www.invisionapp.com/" target="_blank" title="App Invision para realizar mockups">Invision</a><br /><br />
+		<a href="https://marvelapp.com/" target="_blank" title="App Marvel para realizar mockups">Marvel</a></p>
+		<hr style="border: 1px solid gray;">
+		<p class="parrafo">Tarea 1: Realiza el prototipo de tu proyecto integrador y comparte la url en slack.<br />Tarea 2: Realiza con HTML y CSS tu CV siguiendo el ejemplo que te dejo, emplea enlaces ancla para el menú e imágenes con link, así como el atributo target para enlaces que te lleven a páginas externas.</p>
+		<img src="img/cv.jpg">
+		<p class="parrafo"><a href="ejemplos/ejemploClase5.html">Ejemplos de la clase 5</a></p>
+	</section>
+	<footer style="text-align: center; margin-top: 10%;">By Marlicreative</footer>
+	<script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+</body>
+</html>
